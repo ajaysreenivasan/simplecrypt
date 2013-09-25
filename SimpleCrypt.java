@@ -7,7 +7,6 @@ import java.nio.file.Paths;
 
 public class SimpleCrypt {
 	public static void main(String[] args) throws IOException {
-		//Path path = Paths.get("C:\\Users\\Ajay\\Desktop\\RandomPrograms\\SimpleCrypt\\src\\input.txt");
 		Path path = Paths.get(args[0]);
 		System.out.println(path.toString());
 		byte[] input = Files.readAllBytes(path);
