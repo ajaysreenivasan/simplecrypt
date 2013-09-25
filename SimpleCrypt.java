@@ -16,7 +16,7 @@ public class SimpleCrypt {
 			input[i] += 1;
 			System.out.println(input[i]);
 		}
-		File output = new File("C:\\Users\\Ajay\\Desktop\\RandomPrograms\\SimpleCrypt\\src\\out.garbacrypt");
+		File output = new File("\\SimpleCrypt\\src\\out.garbacrypt");
 		FileOutputStream fop = new FileOutputStream(output);
 
 		fop.write(input);
